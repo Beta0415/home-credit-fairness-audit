@@ -1,0 +1,21 @@
+model,grouping_variable,fairness_metric,point_estimate,p_value_raw,p_value_bh,result_5_raw,result_5_bh
+XGBoost,gender,demographic_parity_difference,0.170929292542096,2.105651908882769e-293,2.807535878510359e-293,different_h1,different_h1
+XGBoost,gender,equal_opportunity_difference,0.1588925675225874,1.1548959273649078e-242,1.4436199092061348e-242,different_h1,different_h1
+MLP,gender,demographic_parity_difference,0.1930719004520305,0.0,0.0,different_h1,different_h1
+MLP,gender,equal_opportunity_difference,0.1837485643441773,1.7983495821475e-310,2.56907083163925e-310,different_h1,different_h1
+XGBoost,age_band,demographic_parity_difference,0.5230284589224987,0.0,0.0,different_h1,different_h1
+XGBoost,age_band,equal_opportunity_difference,0.49189391391305226,0.0,0.0,different_h1,different_h1
+MLP,age_band,demographic_parity_difference,0.5784472883479507,0.0,0.0,different_h1,different_h1
+MLP,age_band,equal_opportunity_difference,0.5568552498670283,0.0,0.0,different_h1,different_h1
+XGBoost,income_band,demographic_parity_difference,0.10180916290418707,1.1938046765097873e-61,1.4044760900115145e-61,different_h1,different_h1
+XGBoost,income_band,equal_opportunity_difference,0.09752725346759172,9.471701536469455e-55,1.0524112818299394e-54,different_h1,different_h1
+MLP,income_band,demographic_parity_difference,0.08208578109443265,3.2177242741884e-37,3.3870781833562107e-37,different_h1,different_h1
+MLP,income_band,equal_opportunity_difference,0.07821299964001271,6.43494306576231e-32,6.43494306576231e-32,different_h1,different_h1
+XGBoost,gender × age_band,demographic_parity_difference,0.5960711820960267,0.0,0.0,different_h1,different_h1
+XGBoost,gender × age_band,equal_opportunity_difference,0.559901238102054,0.0,0.0,different_h1,different_h1
+MLP,gender × age_band,demographic_parity_difference,0.6859410430839002,0.0,0.0,different_h1,different_h1
+MLP,gender × age_band,equal_opportunity_difference,0.6671974522292994,0.0,0.0,different_h1,different_h1
+XGBoost,gender × income_band,demographic_parity_difference,0.3168179023011872,0.0,0.0,different_h1,different_h1
+XGBoost,gender × income_band,equal_opportunity_difference,0.29950374139483027,0.0,0.0,different_h1,different_h1
+MLP,gender × income_band,demographic_parity_difference,0.3226244443540955,0.0,0.0,different_h1,different_h1
+MLP,gender × income_band,equal_opportunity_difference,0.30893903021782443,0.0,0.0,different_h1,different_h1

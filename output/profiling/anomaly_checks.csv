@@ -1,0 +1,11 @@
+check,rows,share
+DAYS_EMPLOYED sentinel (365243),55374,0.18007160719453938
+DAYS_BIRTH not negative,0,0.0
+Age outside 18–100,0,0.0
+CODE_GENDER = XNA,4,1.3007664766463638e-05
+NAME_FAMILY_STATUS = Unknown,2,6.503832383231819e-06
+Nonpositive income,0,0.0
+Nonpositive credit,0,0.0
+Nonpositive annuity,0,0.0
+"EXT_SOURCE outside [0, 1]",0,0.0
+More than 10 children,8,2.6015329532927276e-05

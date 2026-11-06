@@ -1,5 +1,5 @@
 .audit-venv/
-output/
+output/fairness/cache/
 .DS_Store
 .ipynb_checkpoints/
 __pycache__/

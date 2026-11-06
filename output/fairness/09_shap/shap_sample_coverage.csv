@@ -1,0 +1,33 @@
+grouping_variable,subgroup,population_count,support_flag,shap_count,shap_coverage
+gender,Female,30410,ok,30410,ok
+gender,Male,15716,ok,15716,ok
+age_band,25–34,10763,ok,10763,ok
+age_band,35–44,12731,ok,12731,ok
+age_band,45–54,10579,ok,10579,ok
+age_band,55–64,8995,ok,8995,ok
+age_band,65+,1208,low_support,1208,ok
+age_band,<25,1850,ok,1850,ok
+income_band,Q1 low,15123,ok,15123,ok
+income_band,Q2,7879,ok,7879,ok
+income_band,Q3,12463,ok,12463,ok
+income_band,Q4 high,10661,ok,10661,ok
+gender × age_band,Female | 25–34,6287,ok,6287,ok
+gender × age_band,Female | 35–44,8137,ok,8137,ok
+gender × age_band,Female | 45–54,7140,ok,7140,ok
+gender × age_band,Female | 55–64,6844,ok,6844,ok
+gender × age_band,Female | 65+,980,low_support,980,ok
+gender × age_band,Female | <25,1022,ok,1022,ok
+gender × age_band,Male | 25–34,4476,ok,4476,ok
+gender × age_band,Male | 35–44,4594,ok,4594,ok
+gender × age_band,Male | 45–54,3439,ok,3439,ok
+gender × age_band,Male | 55–64,2151,ok,2151,ok
+gender × age_band,Male | 65+,228,low_support,228,ok
+gender × age_band,Male | <25,828,ok,828,ok
+gender × income_band,Female | Q1 low,11795,ok,11795,ok
+gender × income_band,Female | Q2,5264,ok,5264,ok
+gender × income_band,Female | Q3,7675,ok,7675,ok
+gender × income_band,Female | Q4 high,5676,ok,5676,ok
+gender × income_band,Male | Q1 low,3328,ok,3328,ok
+gender × income_band,Male | Q2,2615,ok,2615,ok
+gender × income_band,Male | Q3,4788,ok,4788,ok
+gender × income_band,Male | Q4 high,4985,ok,4985,ok

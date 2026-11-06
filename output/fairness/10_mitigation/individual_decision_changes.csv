@@ -1,0 +1,129 @@
+architecture,grouping_variable,subgroup,count,approved_both,rejected_both,rejected_to_approved,approved_to_rejected,total_flipped,flip_rate,net_approval_change,support_flag,threshold_policy
+XGBoost,gender,Male,15716,8360,6369,813,174,987,0.06280223975566301,639,ok,original_fixed
+XGBoost,gender,Female,30410,20783,8410,289,928,1217,0.04001973035185794,-639,ok,original_fixed
+XGBoost,age_band,35–44,12731,7935,4207,280,309,589,0.046265022386301154,-29,ok,original_fixed
+XGBoost,age_band,55–64,8995,7036,1537,212,210,422,0.04691495275152863,2,ok,original_fixed
+XGBoost,age_band,<25,1850,665,1090,43,52,95,0.051351351351351354,-9,ok,original_fixed
+XGBoost,age_band,25–34,10763,5269,4956,270,268,538,0.049986063365232744,2,ok,original_fixed
+XGBoost,age_band,45–54,10579,7164,2906,272,237,509,0.048114188486624444,35,ok,original_fixed
+XGBoost,age_band,65+,1208,1074,83,25,26,51,0.042218543046357616,-1,low_support,original_fixed
+XGBoost,income_band,Q2,7879,4709,2787,202,181,383,0.048610229724584335,21,ok,original_fixed
+XGBoost,income_band,Q4 high,10661,7485,2722,237,217,454,0.04258512334677798,20,ok,original_fixed
+XGBoost,income_band,Q1 low,15123,9241,5123,379,380,759,0.050188454671692126,-1,ok,original_fixed
+XGBoost,income_band,Q3,12463,7708,4147,284,324,608,0.04878440182941507,-40,ok,original_fixed
+XGBoost,gender × age_band,Male | 35–44,4594,2539,1815,198,42,240,0.052242054854157595,156,ok,original_fixed
+XGBoost,gender × age_band,Female | 35–44,8137,5396,2392,82,267,349,0.04289050018434312,-185,ok,original_fixed
+XGBoost,gender × age_band,Male | 55–64,2151,1462,504,170,15,185,0.08600650860065086,155,ok,original_fixed
+XGBoost,gender × age_band,Male | <25,828,261,531,20,16,36,0.043478260869565216,4,ok,original_fixed
+XGBoost,gender × age_band,Female | 25–34,6287,3298,2716,74,199,273,0.043422936217591857,-125,ok,original_fixed
+XGBoost,gender × age_band,Male | 25–34,4476,1971,2240,196,69,265,0.059204647006255585,127,ok,original_fixed
+XGBoost,gender × age_band,Female | 45–54,7140,5225,1653,57,205,262,0.03669467787114846,-148,ok,original_fixed
+XGBoost,gender × age_band,Female | 55–64,6844,5574,1033,42,195,237,0.034628872004675626,-153,ok,original_fixed
+XGBoost,gender × age_band,Female | <25,1022,404,559,23,36,59,0.057729941291585124,-13,ok,original_fixed
+XGBoost,gender × age_band,Male | 45–54,3439,1939,1253,215,32,247,0.0718232044198895,183,ok,original_fixed
+XGBoost,gender × age_band,Male | 65+,228,188,26,14,0,14,0.06140350877192982,14,low_support,original_fixed
+XGBoost,gender × age_band,Female | 65+,980,886,57,11,26,37,0.03775510204081633,-15,low_support,original_fixed
+XGBoost,gender × income_band,Male | Q2,2615,1225,1214,149,27,176,0.0673040152963671,122,ok,original_fixed
+XGBoost,gender × income_band,Female | Q2,5264,3484,1573,53,154,207,0.03932370820668693,-101,ok,original_fixed
+XGBoost,gender × income_band,Male | Q4 high,4985,3172,1563,184,66,250,0.05015045135406219,118,ok,original_fixed
+XGBoost,gender × income_band,Male | Q1 low,3328,1536,1510,255,27,282,0.08473557692307693,228,ok,original_fixed
+XGBoost,gender × income_band,Female | Q3,7675,5281,2065,59,270,329,0.04286644951140065,-211,ok,original_fixed
+XGBoost,gender × income_band,Female | Q4 high,5676,4313,1159,53,151,204,0.035940803382663845,-98,ok,original_fixed
+XGBoost,gender × income_band,Male | Q3,4788,2427,2082,225,54,279,0.05827067669172932,171,ok,original_fixed
+XGBoost,gender × income_band,Female | Q1 low,11795,7705,3613,124,353,477,0.04044086477320899,-229,ok,original_fixed
+MLP,gender,Male,15716,7818,6660,1147,91,1238,0.07877322473911937,1056,ok,original_fixed
+MLP,gender,Female,30410,20472,8656,579,703,1282,0.04215718513646827,-124,ok,original_fixed
+MLP,age_band,35–44,12731,7742,4296,400,293,693,0.05443405859712513,107,ok,original_fixed
+MLP,age_band,55–64,8995,6959,1519,419,98,517,0.057476375764313505,321,ok,original_fixed
+MLP,age_band,<25,1850,538,1212,71,29,100,0.05405405405405406,42,ok,original_fixed
+MLP,age_band,25–34,10763,5060,5142,365,196,561,0.05212301402954567,169,ok,original_fixed
+MLP,age_band,45–54,10579,6930,3052,427,170,597,0.056432555061915114,257,ok,original_fixed
+MLP,age_band,65+,1208,1061,95,44,8,52,0.04304635761589404,36,low_support,original_fixed
+MLP,income_band,Q2,7879,4599,2872,272,136,408,0.05178322122096713,136,ok,original_fixed
+MLP,income_band,Q4 high,10661,7141,2935,444,141,585,0.05487290122877779,303,ok,original_fixed
+MLP,income_band,Q1 low,15123,9057,5218,525,323,848,0.05607353038418303,202,ok,original_fixed
+MLP,income_band,Q3,12463,7493,4291,485,194,679,0.05448126454304742,291,ok,original_fixed
+MLP,gender × age_band,Male | 35–44,4594,2397,1899,269,29,298,0.06486721811057902,240,ok,original_fixed
+MLP,gender × age_band,Female | 35–44,8137,5345,2397,131,264,395,0.04854368932038835,-133,ok,original_fixed
+MLP,gender × age_band,Male | 55–64,2151,1388,490,264,9,273,0.12691771269177127,255,ok,original_fixed
+MLP,gender × age_band,Male | <25,828,177,605,39,7,46,0.05555555555555555,32,ok,original_fixed
+MLP,gender × age_band,Female | 25–34,6287,3211,2798,114,164,278,0.044218228089708926,-50,ok,original_fixed
+MLP,gender × age_band,Male | 25–34,4476,1849,2344,251,32,283,0.0632260947274352,219,ok,original_fixed
+MLP,gender × age_band,Female | 45–54,7140,5102,1746,136,156,292,0.04089635854341737,-20,ok,original_fixed
+MLP,gender × age_band,Female | 55–64,6844,5571,1029,155,89,244,0.03565166569257744,66,ok,original_fixed
+MLP,gender × age_band,Female | <25,1022,361,607,32,22,54,0.05283757338551859,10,ok,original_fixed
+MLP,gender × age_band,Male | 45–54,3439,1828,1306,291,14,305,0.08868857225937772,277,ok,original_fixed
+MLP,gender × age_band,Male | 65+,228,179,16,33,0,33,0.14473684210526316,33,low_support,original_fixed
+MLP,gender × age_band,Female | 65+,980,882,79,11,8,19,0.019387755102040816,3,low_support,original_fixed
+MLP,gender × income_band,Male | Q2,2615,1168,1259,173,15,188,0.07189292543021032,158,ok,original_fixed
+MLP,gender × income_band,Female | Q2,5264,3431,1613,99,121,220,0.04179331306990881,-22,ok,original_fixed
+MLP,gender × income_band,Male | Q4 high,4985,2960,1672,325,28,353,0.0708124373119358,297,ok,original_fixed
+MLP,gender × income_band,Male | Q1 low,3328,1427,1560,324,17,341,0.1024639423076923,307,ok,original_fixed
+MLP,gender × income_band,Female | Q3,7675,5230,2122,160,163,323,0.042084690553745925,-3,ok,original_fixed
+MLP,gender × income_band,Female | Q4 high,5676,4181,1263,119,113,232,0.0408738548273432,6,ok,original_fixed
+MLP,gender × income_band,Male | Q3,4788,2263,2169,325,31,356,0.07435254803675856,294,ok,original_fixed
+MLP,gender × income_band,Female | Q1 low,11795,7630,3658,201,306,507,0.04298431538787622,-105,ok,original_fixed
+XGBoost,gender,Male,15716,8444,6057,1125,90,1215,0.07730974802748791,1035,ok,validation_retuned
+XGBoost,gender,Female,30410,21166,8151,548,545,1093,0.0359421243012167,3,ok,validation_retuned
+XGBoost,age_band,35–44,12731,8054,4052,435,190,625,0.04909276569004791,245,ok,validation_retuned
+XGBoost,age_band,55–64,8995,7128,1454,295,118,413,0.045914396887159536,177,ok,validation_retuned
+XGBoost,age_band,<25,1850,685,1053,80,32,112,0.06054054054054054,48,ok,validation_retuned
+XGBoost,age_band,25–34,10763,5390,4801,425,147,572,0.053145033912477935,278,ok,validation_retuned
+XGBoost,age_band,45–54,10579,7268,2770,408,133,541,0.05113904905945742,275,ok,validation_retuned
+XGBoost,age_band,65+,1208,1085,78,30,15,45,0.037251655629139076,15,low_support,validation_retuned
+XGBoost,income_band,Q2,7879,4793,2692,297,97,394,0.050006345982992764,200,ok,validation_retuned
+XGBoost,income_band,Q4 high,10661,7572,2594,365,130,495,0.04643091642435044,235,ok,validation_retuned
+XGBoost,income_band,Q1 low,15123,9390,4928,574,231,805,0.053230179197249226,343,ok,validation_retuned
+XGBoost,income_band,Q3,12463,7855,3994,437,177,614,0.049265826847468504,260,ok,validation_retuned
+XGBoost,gender × age_band,Male | 35–44,4594,2560,1736,277,21,298,0.06486721811057902,256,ok,validation_retuned
+XGBoost,gender × age_band,Female | 35–44,8137,5494,2316,158,169,327,0.040186801032321494,-11,ok,validation_retuned
+XGBoost,gender × age_band,Male | 55–64,2151,1467,457,217,10,227,0.10553231055323105,207,ok,validation_retuned
+XGBoost,gender × age_band,Male | <25,828,266,513,38,11,49,0.059178743961352656,27,ok,validation_retuned
+XGBoost,gender × age_band,Female | 25–34,6287,3380,2648,142,117,259,0.04119611897566407,25,ok,validation_retuned
+XGBoost,gender × age_band,Male | 25–34,4476,2010,2153,283,30,313,0.06992850759606792,253,ok,validation_retuned
+XGBoost,gender × age_band,Female | 45–54,7140,5315,1596,114,115,229,0.03207282913165266,-1,ok,validation_retuned
+XGBoost,gender × age_band,Female | 55–64,6844,5661,997,78,108,186,0.027177089421391,-30,ok,validation_retuned
+XGBoost,gender × age_band,Female | <25,1022,419,540,42,21,63,0.06164383561643835,21,ok,validation_retuned
+XGBoost,gender × age_band,Male | 45–54,3439,1953,1174,294,18,312,0.09072404768828148,276,ok,validation_retuned
+XGBoost,gender × age_band,Male | 65+,228,188,24,16,0,16,0.07017543859649122,16,low_support,validation_retuned
+XGBoost,gender × age_band,Female | 65+,980,897,54,14,15,29,0.02959183673469388,-1,low_support,validation_retuned
+XGBoost,gender × income_band,Male | Q2,2615,1239,1157,206,13,219,0.08374760994263862,193,ok,validation_retuned
+XGBoost,gender × income_band,Female | Q2,5264,3554,1535,91,84,175,0.03324468085106383,7,ok,validation_retuned
+XGBoost,gender × income_band,Male | Q4 high,4985,3201,1471,276,37,313,0.06278836509528586,239,ok,validation_retuned
+XGBoost,gender × income_band,Male | Q1 low,3328,1550,1436,329,13,342,0.10276442307692307,316,ok,validation_retuned
+XGBoost,gender × income_band,Female | Q3,7675,5401,2001,123,150,273,0.0355700325732899,-27,ok,validation_retuned
+XGBoost,gender × income_band,Female | Q4 high,5676,4371,1123,89,93,182,0.03206483439041578,-4,ok,validation_retuned
+XGBoost,gender × income_band,Male | Q3,4788,2454,1993,314,27,341,0.07121971595655806,287,ok,validation_retuned
+XGBoost,gender × income_band,Female | Q1 low,11795,7840,3492,245,218,463,0.039253921153030946,27,ok,validation_retuned
+MLP,gender,Male,15716,7849,6477,1330,60,1390,0.08844489692033597,1270,ok,validation_retuned
+MLP,gender,Female,30410,20665,8420,815,510,1325,0.0435711936862874,305,ok,validation_retuned
+MLP,age_band,35–44,12731,7813,4205,491,222,713,0.05600502709920666,269,ok,validation_retuned
+MLP,age_band,55–64,8995,6988,1426,512,69,581,0.06459143968871596,443,ok,validation_retuned
+MLP,age_band,<25,1850,550,1182,101,17,118,0.06378378378378378,84,ok,validation_retuned
+MLP,age_band,25–34,10763,5125,5042,465,131,596,0.055374895475239244,334,ok,validation_retuned
+MLP,age_band,45–54,10579,6972,2955,524,128,652,0.06163153417147178,396,ok,validation_retuned
+MLP,age_band,65+,1208,1066,87,52,3,55,0.04552980132450331,49,low_support,validation_retuned
+MLP,income_band,Q2,7879,4636,2797,347,99,446,0.05660616829546897,248,ok,validation_retuned
+MLP,income_band,Q4 high,10661,7187,2841,538,95,633,0.05937529312447237,443,ok,validation_retuned
+MLP,income_band,Q1 low,15123,9145,5083,660,235,895,0.059181379355947895,425,ok,validation_retuned
+MLP,income_band,Q3,12463,7546,4176,600,141,741,0.05945598972959962,459,ok,validation_retuned
+MLP,gender × age_band,Male | 35–44,4594,2404,1854,314,22,336,0.07313887679582064,292,ok,validation_retuned
+MLP,gender × age_band,Female | 35–44,8137,5409,2351,177,200,377,0.046331571832370654,-23,ok,validation_retuned
+MLP,gender × age_band,Male | 55–64,2151,1390,463,291,7,298,0.13854021385402138,284,ok,validation_retuned
+MLP,gender × age_band,Male | <25,828,180,591,53,4,57,0.06884057971014493,49,ok,validation_retuned
+MLP,gender × age_band,Female | 25–34,6287,3263,2749,163,112,275,0.04374105296643868,51,ok,validation_retuned
+MLP,gender × age_band,Male | 25–34,4476,1862,2293,302,19,321,0.07171581769436998,283,ok,validation_retuned
+MLP,gender × age_band,Female | 45–54,7140,5138,1694,188,120,308,0.043137254901960784,68,ok,validation_retuned
+MLP,gender × age_band,Female | 55–64,6844,5598,963,221,62,283,0.04135008766803039,159,ok,validation_retuned
+MLP,gender × age_band,Female | <25,1022,370,591,48,13,61,0.05968688845401174,35,ok,validation_retuned
+MLP,gender × age_band,Male | 45–54,3439,1834,1261,336,8,344,0.10002907822041292,328,ok,validation_retuned
+MLP,gender × age_band,Male | 65+,228,179,15,34,0,34,0.14912280701754385,34,low_support,validation_retuned
+MLP,gender × age_band,Female | 65+,980,887,72,18,3,21,0.02142857142857143,15,low_support,validation_retuned
+MLP,gender × income_band,Male | Q2,2615,1173,1230,202,10,212,0.08107074569789675,192,ok,validation_retuned
+MLP,gender × income_band,Female | Q2,5264,3463,1567,145,89,234,0.044452887537993924,56,ok,validation_retuned
+MLP,gender × income_band,Male | Q4 high,4985,2971,1624,373,17,390,0.07823470411233702,356,ok,validation_retuned
+MLP,gender × income_band,Male | Q1 low,3328,1432,1515,369,12,381,0.11448317307692307,357,ok,validation_retuned
+MLP,gender × income_band,Female | Q3,7675,5273,2068,214,120,334,0.04351791530944625,94,ok,validation_retuned
+MLP,gender × income_band,Female | Q4 high,5676,4216,1217,165,78,243,0.04281183932346723,87,ok,validation_retuned
+MLP,gender × income_band,Male | Q3,4788,2273,2108,386,21,407,0.08500417710944026,365,ok,validation_retuned
+MLP,gender × income_band,Female | Q1 low,11795,7713,3568,291,223,514,0.04357778719796524,68,ok,validation_retuned

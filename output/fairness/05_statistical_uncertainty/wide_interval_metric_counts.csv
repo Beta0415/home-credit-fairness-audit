@@ -1,0 +1,5 @@
+fairness_metric,≤ 10%,> 10%,total
+fpr_approval,50,14,64
+selection_rate,63,1,64
+tpr_approval,63,1,64
+total,176,16,192

@@ -1,0 +1,16 @@
+grouping_variable,disparity,xgboost_pairs,xgboost_different,mlp_pairs,mlp_different
+gender,selection_rate_difference,1,1,1,1
+gender,tpr_approval_difference,1,1,1,1
+gender,fpr_approval_difference,1,1,1,1
+age_band,selection_rate_difference,15,15,15,15
+age_band,tpr_approval_difference,15,15,15,15
+age_band,fpr_approval_difference,15,14,15,13
+income_band,selection_rate_difference,6,5,6,5
+income_band,tpr_approval_difference,6,5,6,5
+income_band,fpr_approval_difference,6,3,6,2
+gender × age_band,selection_rate_difference,66,60,66,61
+gender × age_band,tpr_approval_difference,66,59,66,61
+gender × age_band,fpr_approval_difference,66,48,66,48
+gender × income_band,selection_rate_difference,28,26,28,26
+gender × income_band,tpr_approval_difference,28,26,28,26
+gender × income_band,fpr_approval_difference,28,21,28,18

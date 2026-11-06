@@ -1,0 +1,5 @@
+rule,rows
+CODE_GENDER == XNA,4
+NAME_FAMILY_STATUS == Unknown,2
+Either exclusion,6
+Retained,307505
